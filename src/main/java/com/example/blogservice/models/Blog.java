@@ -1,5 +1,10 @@
 package com.example.blogservice.models;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,10 +12,15 @@ import java.util.List;
  * @author Jaime Rojas
  * Created on 10/31/2018.
  */
+@Entity
+@Table(name = "BLOGS")
 public class Blog {
+  @Id
+  @GeneratedValue
   private Long id;
   private String subject;
 
+  @OneToMany
   private List<Post> posts;
 
   public Blog() {

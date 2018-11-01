@@ -29,7 +29,6 @@ insert into posts (id, title, content, blog_id) values(23, 'titulo...', 'conteni
 insert into posts (id, title, content, blog_id) values(24, 'titulo...', 'contenido...', 4);
 insert into posts (id, title, content, blog_id) values(25, 'titulo...', 'contenido...', 4);
 insert into posts (id, title, content, blog_id) values(26, 'titulo...', 'contenido...', 5);
-insert into posts (id, title, content, blog_id) values(26, 'titulo...', 'contenido...', 5);
 insert into posts (id, title, content, blog_id) values(27, 'titulo...', 'contenido...', 5);
 insert into posts (id, title, content, blog_id) values(28, 'titulo...', 'contenido...', 5);
 insert into posts (id, title, content, blog_id) values(29, 'titulo...', 'contenido...', 5);
